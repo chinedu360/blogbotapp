@@ -5,6 +5,7 @@
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
+    <meta name="viewport" content="width-device-width, initial-scale=1" />
     <meta
       name="description"
       content="Web site created using create-react-app"
@@ -29,6 +30,14 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger-cx/bootstrap.js?v=1"></script>
+    <df-messenger
+      df-cx="true"
+      location="us-central1"
+      chat-title="blog-article-finder"
+      agent-id="ac82dbcc-f943-45ec-94ee-e20bea6d08fb"
+      language-code="en"
+    ></df-messenger>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.

@@ -1,0 +1,35 @@
+.nav{
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+.nav-header{
+    display: flex;
+    justify-content: space-around;
+    font-size: 35px;
+}
+
+.nav ul {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.nav-ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-ul li {
+    padding: 10px 25px;
+    border: 2px solid black;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+
+.signup-btn {
+    background-color: black;
+    color: white
+}
